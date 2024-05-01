@@ -1,12 +1,13 @@
 import React from 'react'
+import './Card.css'
 
-const Card = () => {
+const Card = ({kartinShekli,kartinBasligi,kartinParaqrafi}) => {
   return (
-    <div className='card'>
-<img src="/assets/images/blog1.jpeg" alt="" />
+    <div className='card border-0'>
+<img src={kartinShekli}alt="" className='blog-img' />
 <div className="card-body">
-  <h1></h1>
-  <p></p>
+  <h1>{kartinBasligi}</h1>
+  <p>{kartinParaqrafi}</p>
 </div>
     </div>
   )
