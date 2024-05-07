@@ -8,15 +8,19 @@ import React from 'react'
 import NavbarKOmponenti from './components/Navbar'
 import Introduction from './components/Introduction'
 import ArticlesSection from './components/ArticlesSection'
+import Footer from './components/Footer'
 
 function App() {
 
 
   return (
     <>
-  <NavbarKOmponenti/>  
- <Introduction/>
- <ArticlesSection/>
+    <div className="container">
+    <NavbarKOmponenti />  
+ <Introduction />
+ <ArticlesSection />
+    </div>
+    <Footer />
 </>
 )
 }
