@@ -19,12 +19,14 @@ function App() {
 
   return (
     <>
+    <BrowserRouter >
     <div className="container">
     <NavbarKOmponenti />  
  <Introduction />
  <ArticlesSection />
     </div>
     <Footer />
+    </BrowserRouter >
 </>
 )
 }
