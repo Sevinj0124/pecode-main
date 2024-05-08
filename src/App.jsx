@@ -8,7 +8,11 @@ import React from 'react'
 import NavbarKOmponenti from './components/Navbar'
 import Introduction from './components/Introduction'
 import ArticlesSection from './components/ArticlesSection'
+
+// *Marshrutlarin qurulmasi
+import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Footer from './components/Footer'
+import WhatWeDo from './containers/WhatWeDo'
 
 function App() {
 
