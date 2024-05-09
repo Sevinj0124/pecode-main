@@ -10,9 +10,10 @@ import Introduction from './components/Introduction'
 import ArticlesSection from './components/ArticlesSection'
 
 // *Marshrutlarin qurulmasi
-import {BrowserRouter,Routes,Route} from "react-router-dom"
+import {BrowserRouter,Routes,Route, Router} from "react-router-dom"
 import Footer from './components/Footer'
 import WhatWeDo from './containers/WhatWeDo'
+import NotFound from './containers/NotFound'
 
 function App() {
 
@@ -21,11 +22,18 @@ function App() {
     <>
     <BrowserRouter >
     <div className="container">
+
     <NavbarKOmponenti />  
  <Introduction />
- <ArticlesSection />
+ 
     </div>
+<Routes>
+<Route path='/'/>
+<Route path='/what-we-do' element={<WhatWeDo />} />
+<Route  path='*' element={<NotFound />}/>
+</Routes>
     <Footer />
+
     </BrowserRouter >
 </>
 )
