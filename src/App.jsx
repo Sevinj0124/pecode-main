@@ -14,6 +14,10 @@ import {BrowserRouter,Routes,Route, Router} from "react-router-dom"
 import Footer from './components/Footer'
 import WhatWeDo from './containers/WhatWeDo'
 import NotFound from './containers/NotFound'
+import Career from './containers/Career'
+import Blog from './containers/Blog'
+import Contact from './containers/Contact'
+import Home from './containers/Home'
 
 function App() {
 
@@ -28,8 +32,11 @@ function App() {
  
     </div>
 <Routes>
-<Route path='/'/>
+<Route path='/' element={<Home />}/>
 <Route path='/what-we-do' element={<WhatWeDo />} />
+<Route path='/kariyera' element={<Career />}/>
+<Route path='/contact' element={<Contact />}/>
+<Route path='/blog' element={<Blog />}/>
 <Route  path='*' element={<NotFound />}/>
 </Routes>
     <Footer />
