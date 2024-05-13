@@ -43,7 +43,16 @@ const Contact = () => {
     </ReactTyped>
 
 
-<div className="contacts-container my-5">
+<div className="contacts-container my-5 position-relative">
+  <img src="/assets/icons/bezek.svg" alt="" className='footer-left' />
+  <img src="/assets/icons/bezek2.svg" alt="" className='footer-right' />
+  <img src="/assets/icons/bezek3.svg" alt="" className='footer-right-ulduz' />
+  <img src="/assets/icons/bezek4.svg" alt="" className='footer-right-daire' />
+  <img src="/assets/icons/bezek5.svg" alt="" className='footer-left-yarim-daire' />
+  <img src="/assets/icons/bezek6.svg" alt="" className='footer-left-daire' />
+  <img src="/assets/icons/bezek7.svg" alt="" className='footer-left-kvadrat' />
+  
+
     <div className="container d-flex justify-content-center ">
     <form onSubmit={mesajiGonder} className='bg-dark form p-5' ref={form}>
     <h4 className='text-white'>Get in touch</h4>
