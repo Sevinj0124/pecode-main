@@ -1,0 +1,30 @@
+textarea {
+    resize: none;
+}
+.form {
+width: 503px;
+height: 503px;
+}
+.form input,.form textarea{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fdfdfd;
+}
+
+.form input:focus,.form textarea:focus {
+    background-color: transparent;
+    border: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+form button {
+    background-color: #4EBA85;
+    border-radius: 4px ;
+    /* padding: 24px 32px; */
+color: #fdfdfd;
+width: 148px;
+height: 56px;
+}

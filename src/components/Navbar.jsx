@@ -30,7 +30,7 @@ const Navbar = () => {
     </div>
 
 
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg py-4">
   <div className="container">
     <Link className="navbar-brand" to="/">
         <img src="/public/assets/images/logo.svg" alt="Pecode" />
