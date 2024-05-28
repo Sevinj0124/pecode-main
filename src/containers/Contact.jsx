@@ -69,7 +69,7 @@ const Contact = () => {
         <div className='forum-group'>
        <textarea className='form-control shadow-none text-white' name="mesaj" id=""  placeholder='Mesajiniz'  ></textarea>
         </div>
-<div className="button">
+<div className="button mt-4">
 <button> Send</button>
 </div>
        
